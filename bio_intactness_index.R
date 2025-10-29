@@ -1,6 +1,9 @@
 
 library(dplyr) # A powerful package for efficient and intuitive data manipulation
-
+install.packages("gapminder") # Install the gapminder package if not already installed
+install.packages("ggplot2") # Install ggplot2 package if not already installed
+library(gapminder) # A dataset package for global development data
+library(ggplot2) # A popular package for data visualization
 bbi_data <- read.csv("data/resource.csv") # Load the dataset
 
 head(bbi_data) # Display the first few rows of the dataset
